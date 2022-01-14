@@ -17,7 +17,7 @@ export default function TravelType({ icon, text }: TravelTypeProps) {
           •
         </Text>
       )}
-      <Text fontWeight="600" color="gray.700" fontSize={["md", "xl", "2xl"]}>
+      <Text fontWeight="600" color="gray.700" fontSize={["md", "xl", "xl"]}>
         {text}
       </Text>
     </Flex>

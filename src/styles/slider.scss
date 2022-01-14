@@ -1,0 +1,42 @@
+$theme-color: #ffba08;
+$theme-color-gray: #999999;
+
+.swiper-button-next {
+  right: 45px;
+  @media (max-width: 30em) {
+    right: 15px;
+  }
+  &:after {
+    color: $theme-color;
+    @media (max-width: 30em) {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.swiper-button-prev {
+  left: 45px;
+  @media (max-width: 30em) {
+    left: 15px;
+  }
+  &:after {
+    color: $theme-color;
+    @media (max-width: 30em) {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.swiper-pagination-bullet {
+  background-color: $theme-color-gray;
+  height: 16px;
+  opacity: 1;
+  width: 16px;
+  @media (max-width: 30em) {
+    height: 8px;
+    width: 8px;
+  }
+  &-active {
+    background-color: $theme-color;
+  }
+}
