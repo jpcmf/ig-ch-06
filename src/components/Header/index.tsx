@@ -29,7 +29,7 @@ export default function Header() {
       >
         {notHomePage && (
           <Link href="/">
-            <Flex as="a">
+            <Flex as="a" cursor="pointer">
               <Icon as={RiArrowLeftSLine} fontSize={["20", "40"]} />
             </Flex>
           </Link>
